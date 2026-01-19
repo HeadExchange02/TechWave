@@ -11,6 +11,7 @@
     rgba(251, 9, 180, 1),
     rgba(145, 0, 248, 1)
   );
+     padding: 12.5px 20px;
 }
 
 
@@ -88,27 +89,26 @@ button{
   border-top: 1px solid rgba(70, 36, 133, 0.822);
 }
 
+.hero-circle-bg{
+    background-image:  url(../assets/hero-circle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
 .hero-container{
     justify-items: center;
     /* align-items: center; */
 }
 
 .hero-content-box{
-    border: 1px solid rgb(15, 216, 15);
+    border: none;
     
-}
-
-.hero-circle{
-    width: 450px;
-    height: 450px;
-    position: relative;
-    
-}
-
-.microphone{
-    border: 1px solid white;
-    position: absolute;
-    top: 330px;
 }
 
 .header-section{
@@ -131,7 +131,7 @@ button a{
 
 .subscribe{
     text-decoration: none;
-    color: #0dd377;
+    padding: 12.5px 20px;
     background-color: transparent;
     border: 2px solid #00FF88;
 }

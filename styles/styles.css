@@ -13,6 +13,7 @@
   );
 }
 
+
 .font-background {
   background: linear-gradient(
     45deg,
@@ -89,12 +90,12 @@ button{
 
 .hero-container{
     justify-items: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .hero-content-box{
     border: 1px solid rgb(15, 216, 15);
-    margin-top: -250px;
+    
 }
 
 .hero-circle{
@@ -109,3 +110,33 @@ button{
     position: absolute;
     top: 330px;
 }
+
+.header-section{
+    text-align: center;
+}
+
+.header{
+    color: #ffffff;
+    font-size: 3.75rem;
+}
+
+.header-pera{
+    color: #FFFFFF;
+}
+
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subscribe{
+    text-decoration: none;
+    color: #0dd377;
+    background-color: transparent;
+    border: 2px solid #00FF88;
+}
+
+.subscribe a{
+    color: #0dd377;
+}
+

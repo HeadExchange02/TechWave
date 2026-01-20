@@ -232,6 +232,32 @@ hr{
 }
 
 
+
+/* Featured Episodes Section */
+#featured{
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.featured-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.featured-card{
+    background-color: #412567;
+    border-radius: 15px;
+    padding: 0px;
+    width: 560px;
+}
+
+.iframe{
+    border-radius: 15px;
+}
+
+
+
 /* Host Section */
 
 #host{

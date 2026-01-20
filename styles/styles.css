@@ -64,6 +64,10 @@ nav .logo{
     color: #FFFFFF;
 }
 
+nav .nav-logo{
+    display: none;
+}
+
 nav .nav-menu{
     color: #FFFFFF;
 }
@@ -192,6 +196,10 @@ hr{
     margin-bottom: 120px;
 }
 
+.about-card h2{
+    font-size: 2.5rem;
+}
+
 
 /* Why Section  */
 #why h2{
@@ -253,7 +261,7 @@ hr{
     background-color: #412567;
     border-radius: 15px;
     padding: 0px;
-    width: 500px;
+    width: 400px;
 }
 
 iframe{
@@ -338,3 +346,41 @@ iframe{
 
 
 /* Resposive Layout */
+/* responsive media query */
+
+ /* small size */
+
+@media screen and (max-width:576px){
+    .nav-menu{
+        display: none;
+    }
+
+    nav .nav-btn{
+        display: none;
+    }
+
+    nav .nav-logo{
+    display: flex;
+    }
+
+    .about-card-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #why .why-card-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #featured .featured-card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .host-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

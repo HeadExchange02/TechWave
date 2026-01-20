@@ -239,9 +239,13 @@ hr{
     justify-content: center;
 }
 
+.featured-header{
+    text-align: center;
+}
+
 .featured-card-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    display: flex;
     gap: 30px;
 }
 
@@ -249,10 +253,10 @@ hr{
     background-color: #412567;
     border-radius: 15px;
     padding: 0px;
-    width: 560px;
+    width: 500px;
 }
 
-.iframe{
+iframe{
     border-radius: 15px;
 }
 
@@ -263,6 +267,10 @@ hr{
 #host{
     margin-top: 80px;
     justify-items: center;
+}
+
+.host-header{
+    text-align: center;
 }
 
 .host-container{
